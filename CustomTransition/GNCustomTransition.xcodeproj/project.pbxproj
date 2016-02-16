@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3A10C31C719EED0071FB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10C21C719EED0071FB02 /* main.m */; };
+		2F3A10C61C719EED0071FB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10C51C719EED0071FB02 /* AppDelegate.m */; };
+		2F3A10CE1C719EED0071FB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10CD1C719EED0071FB02 /* Assets.xcassets */; };
+		2F3A10D11C719EED0071FB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10CF1C719EED0071FB02 /* LaunchScreen.storyboard */; };
+		2F3A10DB1C719F480071FB02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10D91C719F480071FB02 /* MainViewController.m */; };
+		2F3A10DC1C719F480071FB02 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10DA1C719F480071FB02 /* MainViewController.xib */; };
+		2F3A10E01C71A4ED0071FB02 /* CrossFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10DE1C71A4ED0071FB02 /* CrossFirstViewController.m */; };
+		2F3A10E11C71A4ED0071FB02 /* CrossFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10DF1C71A4ED0071FB02 /* CrossFirstViewController.xib */; };
+		2F3A10E51C71A4FF0071FB02 /* CrossSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10E31C71A4FF0071FB02 /* CrossSecondViewController.m */; };
+		2F3A10E61C71A4FF0071FB02 /* CrossSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10E41C71A4FF0071FB02 /* CrossSecondViewController.xib */; };
+		2F3A10E91C71AA860071FB02 /* CrossTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10E81C71AA860071FB02 /* CrossTransitionAnimator.m */; };
+		2F3A10F11C71BE850071FB02 /* SwipeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10EF1C71BE850071FB02 /* SwipeFirstViewController.m */; };
+		2F3A10F21C71BE850071FB02 /* SwipeFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10F01C71BE850071FB02 /* SwipeFirstViewController.xib */; };
+		2F3A10F61C71BE930071FB02 /* SwipeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10F41C71BE930071FB02 /* SwipeSecondViewController.m */; };
+		2F3A10F71C71BE930071FB02 /* SwipeSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A10F51C71BE930071FB02 /* SwipeSecondViewController.xib */; };
+		2F3A10FA1C71C0F70071FB02 /* SwipeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10F91C71C0F70071FB02 /* SwipeTransitionDelegate.m */; };
+		2F3A10FD1C71C2210071FB02 /* SwipeTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A10FC1C71C2210071FB02 /* SwipeTransitionAnimator.m */; };
+		2F9557C01C72C79000EB3B9C /* SwipeTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9557BF1C72C79000EB3B9C /* SwipeTransitionController.m */; };
+		2F9557CB1C72FC8700EB3B9C /* CustomPresentationFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9557C91C72FC8700EB3B9C /* CustomPresentationFirstViewController.m */; };
+		2F9557CC1C72FC8700EB3B9C /* CustomPresentationFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9557CA1C72FC8700EB3B9C /* CustomPresentationFirstViewController.xib */; };
+		2F9557D01C72FCAE00EB3B9C /* CustomPresentationSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9557CE1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.m */; };
+		2F9557D11C72FCAE00EB3B9C /* CustomPresentationSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9557CF1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.xib */; };
+		2F9557D41C7300E200EB3B9C /* CustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9557D31C7300E200EB3B9C /* CustomPresentationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F3A10BE1C719EED0071FB02 /* GNCustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNCustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3A10C21C719EED0071FB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F3A10C41C719EED0071FB02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F3A10C51C719EED0071FB02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F3A10CD1C719EED0071FB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3A10D01C719EED0071FB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3A10D21C719EED0071FB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3A10D81C719F480071FB02 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2F3A10D91C719F480071FB02 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2F3A10DA1C719F480071FB02 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2F3A10DD1C71A4ED0071FB02 /* CrossFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFirstViewController.h; sourceTree = "<group>"; };
+		2F3A10DE1C71A4ED0071FB02 /* CrossFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFirstViewController.m; sourceTree = "<group>"; };
+		2F3A10DF1C71A4ED0071FB02 /* CrossFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossFirstViewController.xib; sourceTree = "<group>"; };
+		2F3A10E21C71A4FF0071FB02 /* CrossSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossSecondViewController.h; sourceTree = "<group>"; };
+		2F3A10E31C71A4FF0071FB02 /* CrossSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossSecondViewController.m; sourceTree = "<group>"; };
+		2F3A10E41C71A4FF0071FB02 /* CrossSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossSecondViewController.xib; sourceTree = "<group>"; };
+		2F3A10E71C71AA860071FB02 /* CrossTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossTransitionAnimator.h; sourceTree = "<group>"; };
+		2F3A10E81C71AA860071FB02 /* CrossTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossTransitionAnimator.m; sourceTree = "<group>"; };
+		2F3A10EE1C71BE850071FB02 /* SwipeFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeFirstViewController.h; sourceTree = "<group>"; };
+		2F3A10EF1C71BE850071FB02 /* SwipeFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeFirstViewController.m; sourceTree = "<group>"; };
+		2F3A10F01C71BE850071FB02 /* SwipeFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeFirstViewController.xib; sourceTree = "<group>"; };
+		2F3A10F31C71BE930071FB02 /* SwipeSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeSecondViewController.h; sourceTree = "<group>"; };
+		2F3A10F41C71BE930071FB02 /* SwipeSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeSecondViewController.m; sourceTree = "<group>"; };
+		2F3A10F51C71BE930071FB02 /* SwipeSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeSecondViewController.xib; sourceTree = "<group>"; };
+		2F3A10F81C71C0F70071FB02 /* SwipeTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTransitionDelegate.h; sourceTree = "<group>"; };
+		2F3A10F91C71C0F70071FB02 /* SwipeTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTransitionDelegate.m; sourceTree = "<group>"; };
+		2F3A10FB1C71C2210071FB02 /* SwipeTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTransitionAnimator.h; sourceTree = "<group>"; };
+		2F3A10FC1C71C2210071FB02 /* SwipeTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTransitionAnimator.m; sourceTree = "<group>"; };
+		2F9557BE1C72C79000EB3B9C /* SwipeTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTransitionController.h; sourceTree = "<group>"; };
+		2F9557BF1C72C79000EB3B9C /* SwipeTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTransitionController.m; sourceTree = "<group>"; };
+		2F9557C81C72FC8700EB3B9C /* CustomPresentationFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentationFirstViewController.h; sourceTree = "<group>"; };
+		2F9557C91C72FC8700EB3B9C /* CustomPresentationFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentationFirstViewController.m; sourceTree = "<group>"; };
+		2F9557CA1C72FC8700EB3B9C /* CustomPresentationFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPresentationFirstViewController.xib; sourceTree = "<group>"; };
+		2F9557CD1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentationSecondViewController.h; sourceTree = "<group>"; };
+		2F9557CE1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentationSecondViewController.m; sourceTree = "<group>"; };
+		2F9557CF1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPresentationSecondViewController.xib; sourceTree = "<group>"; };
+		2F9557D21C7300E200EB3B9C /* CustomPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentationController.h; sourceTree = "<group>"; };
+		2F9557D31C7300E200EB3B9C /* CustomPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3A10BB1C719EED0071FB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3A10B51C719EED0071FB02 = {
+			isa = PBXGroup;
+			children = (
+				2F3A10C01C719EED0071FB02 /* GNCustomTransition */,
+				2F3A10BF1C719EED0071FB02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3A10BF1C719EED0071FB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A10BE1C719EED0071FB02 /* GNCustomTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3A10C01C719EED0071FB02 /* GNCustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A10C41C719EED0071FB02 /* AppDelegate.h */,
+				2F3A10C51C719EED0071FB02 /* AppDelegate.m */,
+				2F3A10D81C719F480071FB02 /* MainViewController.h */,
+				2F3A10D91C719F480071FB02 /* MainViewController.m */,
+				2F3A10DA1C719F480071FB02 /* MainViewController.xib */,
+				2F9557DB1C7313BF00EB3B9C /* 自定义转场 */,
+				2F9557C11C72CF9F00EB3B9C /* 滑动返回 */,
+				2F3A10ED1C71BE0C0071FB02 /* 淡入淡出 */,
+				2F3A10CD1C719EED0071FB02 /* Assets.xcassets */,
+				2F3A10CF1C719EED0071FB02 /* LaunchScreen.storyboard */,
+				2F3A10D21C719EED0071FB02 /* Info.plist */,
+				2F3A10C11C719EED0071FB02 /* Supporting Files */,
+			);
+			path = GNCustomTransition;
+			sourceTree = "<group>";
+		};
+		2F3A10C11C719EED0071FB02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A10C21C719EED0071FB02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F3A10ED1C71BE0C0071FB02 /* 淡入淡出 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A10DD1C71A4ED0071FB02 /* CrossFirstViewController.h */,
+				2F3A10DE1C71A4ED0071FB02 /* CrossFirstViewController.m */,
+				2F3A10DF1C71A4ED0071FB02 /* CrossFirstViewController.xib */,
+				2F3A10E21C71A4FF0071FB02 /* CrossSecondViewController.h */,
+				2F3A10E31C71A4FF0071FB02 /* CrossSecondViewController.m */,
+				2F3A10E41C71A4FF0071FB02 /* CrossSecondViewController.xib */,
+				2F3A10E71C71AA860071FB02 /* CrossTransitionAnimator.h */,
+				2F3A10E81C71AA860071FB02 /* CrossTransitionAnimator.m */,
+			);
+			name = "淡入淡出";
+			sourceTree = "<group>";
+		};
+		2F9557C11C72CF9F00EB3B9C /* 滑动返回 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A10EE1C71BE850071FB02 /* SwipeFirstViewController.h */,
+				2F3A10EF1C71BE850071FB02 /* SwipeFirstViewController.m */,
+				2F3A10F01C71BE850071FB02 /* SwipeFirstViewController.xib */,
+				2F3A10F31C71BE930071FB02 /* SwipeSecondViewController.h */,
+				2F3A10F41C71BE930071FB02 /* SwipeSecondViewController.m */,
+				2F3A10F51C71BE930071FB02 /* SwipeSecondViewController.xib */,
+				2F3A10F81C71C0F70071FB02 /* SwipeTransitionDelegate.h */,
+				2F3A10F91C71C0F70071FB02 /* SwipeTransitionDelegate.m */,
+				2F3A10FB1C71C2210071FB02 /* SwipeTransitionAnimator.h */,
+				2F3A10FC1C71C2210071FB02 /* SwipeTransitionAnimator.m */,
+				2F9557BE1C72C79000EB3B9C /* SwipeTransitionController.h */,
+				2F9557BF1C72C79000EB3B9C /* SwipeTransitionController.m */,
+			);
+			name = "滑动返回";
+			sourceTree = "<group>";
+		};
+		2F9557DB1C7313BF00EB3B9C /* 自定义转场 */ = {
+			isa = PBXGroup;
+			children = (
+				2F9557C81C72FC8700EB3B9C /* CustomPresentationFirstViewController.h */,
+				2F9557C91C72FC8700EB3B9C /* CustomPresentationFirstViewController.m */,
+				2F9557CA1C72FC8700EB3B9C /* CustomPresentationFirstViewController.xib */,
+				2F9557CD1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.h */,
+				2F9557CE1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.m */,
+				2F9557CF1C72FCAE00EB3B9C /* CustomPresentationSecondViewController.xib */,
+				2F9557D21C7300E200EB3B9C /* CustomPresentationController.h */,
+				2F9557D31C7300E200EB3B9C /* CustomPresentationController.m */,
+			);
+			name = "自定义转场";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3A10BD1C719EED0071FB02 /* GNCustomTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3A10D51C719EED0071FB02 /* Build configuration list for PBXNativeTarget "GNCustomTransition" */;
+			buildPhases = (
+				2F3A10BA1C719EED0071FB02 /* Sources */,
+				2F3A10BB1C719EED0071FB02 /* Frameworks */,
+				2F3A10BC1C719EED0071FB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNCustomTransition;
+			productName = GNCustomTransition;
+			productReference = 2F3A10BE1C719EED0071FB02 /* GNCustomTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3A10B61C719EED0071FB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhanggenning;
+				TargetAttributes = {
+					2F3A10BD1C719EED0071FB02 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2F3A10B91C719EED0071FB02 /* Build configuration list for PBXProject "GNCustomTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3A10B51C719EED0071FB02;
+			productRefGroup = 2F3A10BF1C719EED0071FB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3A10BD1C719EED0071FB02 /* GNCustomTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3A10BC1C719EED0071FB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9557CC1C72FC8700EB3B9C /* CustomPresentationFirstViewController.xib in Resources */,
+				2F3A10F71C71BE930071FB02 /* SwipeSecondViewController.xib in Resources */,
+				2F3A10D11C719EED0071FB02 /* LaunchScreen.storyboard in Resources */,
+				2F3A10DC1C719F480071FB02 /* MainViewController.xib in Resources */,
+				2F3A10E11C71A4ED0071FB02 /* CrossFirstViewController.xib in Resources */,
+				2F3A10E61C71A4FF0071FB02 /* CrossSecondViewController.xib in Resources */,
+				2F3A10F21C71BE850071FB02 /* SwipeFirstViewController.xib in Resources */,
+				2F3A10CE1C719EED0071FB02 /* Assets.xcassets in Resources */,
+				2F9557D11C72FCAE00EB3B9C /* CustomPresentationSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3A10BA1C719EED0071FB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9557D41C7300E200EB3B9C /* CustomPresentationController.m in Sources */,
+				2F9557CB1C72FC8700EB3B9C /* CustomPresentationFirstViewController.m in Sources */,
+				2F3A10F11C71BE850071FB02 /* SwipeFirstViewController.m in Sources */,
+				2F3A10F61C71BE930071FB02 /* SwipeSecondViewController.m in Sources */,
+				2F3A10C61C719EED0071FB02 /* AppDelegate.m in Sources */,
+				2F3A10DB1C719F480071FB02 /* MainViewController.m in Sources */,
+				2F3A10E91C71AA860071FB02 /* CrossTransitionAnimator.m in Sources */,
+				2F3A10FA1C71C0F70071FB02 /* SwipeTransitionDelegate.m in Sources */,
+				2F9557C01C72C79000EB3B9C /* SwipeTransitionController.m in Sources */,
+				2F3A10E51C71A4FF0071FB02 /* CrossSecondViewController.m in Sources */,
+				2F3A10E01C71A4ED0071FB02 /* CrossFirstViewController.m in Sources */,
+				2F3A10FD1C71C2210071FB02 /* SwipeTransitionAnimator.m in Sources */,
+				2F3A10C31C719EED0071FB02 /* main.m in Sources */,
+				2F9557D01C72FCAE00EB3B9C /* CustomPresentationSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F3A10CF1C719EED0071FB02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3A10D01C719EED0071FB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3A10D31C719EED0071FB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3A10D41C719EED0071FB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3A10D61C719EED0071FB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GNCustomTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanggenning.com.GNCustomTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F3A10D71C719EED0071FB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GNCustomTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanggenning.com.GNCustomTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3A10B91C719EED0071FB02 /* Build configuration list for PBXProject "GNCustomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3A10D31C719EED0071FB02 /* Debug */,
+				2F3A10D41C719EED0071FB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3A10D51C719EED0071FB02 /* Build configuration list for PBXNativeTarget "GNCustomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3A10D61C719EED0071FB02 /* Debug */,
+				2F3A10D71C719EED0071FB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3A10B61C719EED0071FB02 /* Project object */;
+}
